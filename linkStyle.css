@@ -179,6 +179,39 @@ a:active {
     color: darkred;
 }
 
+.intro-left{
+    margin-bottom: 4rem;
+    height: 700px;
+    width: 800px;
+    overflow: hidden;
+    object-fit: scale-down;
+}
+.intro-left img {
+    display: flex;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.title{
+    margin-bottom: 5rem;
+}
+.title h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    position: relative;
+}
+.title h2::after{
+    position: absolute;
+    content: "";
+    top: 120%;
+    left: 0;
+    width: 70px;
+    height: 4px;
+    background-color: var(--dark-color);
+}
+
+
 /*.fa-facebook {
     background: #3B5998;
     color: white;
