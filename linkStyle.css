@@ -53,7 +53,7 @@ html {
     width: auto;
     height: auto;
     display: flex;
-    padding: 10px;
+    padding: 0px;
     gap: 0.625%;
 }
 
@@ -120,19 +120,15 @@ a:active {
     height: auto;
     width: auto;
     margin: 0 10px;
-    box-shadow: 0 0 20px 10px rgba(0, 0, 0, .1);
+    box-shadow: auto rgba(0, 0, 0, .1);
     transition: transform .3s ease-in-out;
     object-fit: fill;
     transform: translate(7%, 0%);
-    top: 50%;
-    left: 50%;
 }
 
 .images .box {
-    margin: 10 0px;
+    margin: 0 0px;
     justify-content: center;
-    top: 50%;
-    left: 50%;
 }
 
 .box img {
@@ -152,7 +148,7 @@ a:active {
 
 /*header*/
 #header-work {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('Web Pics/IMG_3697.JPG') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('Web Pics/portland/IMG_3697.JPG') center/cover no-repeat fixed;
     justify-content: flex-start;
     align-items: flex-end;
 }
@@ -165,7 +161,7 @@ a:active {
 }
 
 #header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('Web Pics/IMG_7714.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('Web Pics/sf 2022/IMG_7714.jpg') center/cover no-repeat fixed;
     justify-content: flex-start;
     align-items: flex-end;
 }
@@ -191,6 +187,13 @@ a:active {
     letter-spacing: 4px;
     text-transform: uppercase;
     margin-top: 1.5rem;
+}
+
+nav {
+    width: auto;
+    height: auto;
+    display: flex;
+    padding-bottom: 50px;
 }
 
 .social-links {
@@ -269,10 +272,7 @@ a:active {
 }
 
 .images-link .box {
-    margin: 0 10px;
     justify-content: center;
-    top: 50%;
-    left: 50%;
     flex-direction: row;
 }
 
@@ -281,5 +281,6 @@ a:active {
     height: auto;
     display: flex;
     padding-top: 20px;
+    padding-bottom: 20px;
     gap: 0.625%;
 }
