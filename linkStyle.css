@@ -307,10 +307,56 @@ div h1 {
     text-align: center;
 }
 
+.header-content-about h3{
+    text-transform: uppercase;
+    color: var(--light-color);
+    text-align: left;
+    margin-right: 800px;
+    margin-left: 100px;
+}
+
+.header-content-about h2{
+    text-transform: uppercase;
+    color: var(--light-color);
+    text-align: left;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
 .header-content-pages h3{
     text-transform: uppercase;
     color: var(--light-color);
     text-align: center;
     margin-right: 300px;
     margin-left: 300px;
+}
+
+.header-content-about h1{
+    font-size: 4.5rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: var(--light-color);
+    text-align: center;
+}
+
+.about-right {
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 10vw;
+    max-height: 50vw;
+    width: 10px;
+    height: 15px;
+}
+
+
+
+.about-box img { 
+    margin-bottom: 4rem;
+    max-width: 100vw;
+    max-height: 100vw;
+    padding-right: 150px;
+    padding-left: 600px;
+    margin-top: 100px;
+
 }
