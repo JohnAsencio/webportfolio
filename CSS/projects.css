@@ -1,0 +1,15 @@
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .project img {
+    max-width: 200px;
+    max-height: 150px;
+    margin-right: 20px;
+  }
+
+  .project-details {
+    flex: 1;
+  }

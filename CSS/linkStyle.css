@@ -149,7 +149,7 @@ a:active {
 
 /*header*/
 #header-work {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('Web Pics/portland/IMG_3697.JPG') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../Web Pics/portland/IMG_3697.JPG') center/cover no-repeat fixed;
     justify-content: flex-start;
     align-items: flex-end;
 }
@@ -162,7 +162,7 @@ a:active {
 }
 
 #header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('Web Pics/sf 2022/IMG_7714.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../Web Pics/sf 2022/IMG_7714.jpg') center/cover no-repeat fixed;
     justify-content: flex-start;
     align-items: flex-end;
 }
@@ -307,23 +307,6 @@ div h1 {
     text-align: center;
 }
 
-.header-content-about h3{
-    text-transform: uppercase;
-    color: var(--light-color);
-    text-align: left;
-    margin-right: 800px;
-    margin-left: 100px;
-}
-
-.header-content-about h2{
-    text-transform: uppercase;
-    color: var(--light-color);
-    text-align: left;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 100px;
-}
-
 .header-content-pages h3{
     text-transform: uppercase;
     color: var(--light-color);
@@ -332,46 +315,4 @@ div h1 {
     margin-left: 300px;
 }
 
-.header-content-about h1{
-    font-size: 4.5rem;
-    margin-bottom: 0;
-    text-transform: uppercase;
-    color: var(--light-color);
-    text-align: center;
-}
-
-.about-right {
-    padding-left: 5%;
-    padding-right: 5%;
-    max-width: 10vw;
-    max-height: 50vw;
-    width: 10px;
-    height: 15px;
-}
-
-.about-box .about-right img { 
-    margin-bottom: 4rem;
-    max-width: 95vw;
-    max-height: 100vw;
-    padding-right: 80px;
-    padding-left: 600px;
-    margin-top: 100px;
-
-}
-
-.about-left {
-    max-width: 1000vw; 
-    text-align: center;
-    float: right;
-}
-
-.about-box .about-left img { 
-    margin-bottom: 4rem;
-    max-width: 95vw;
-    max-height: 100vw;
-    margin-top: 100px;
-    padding-right: 600px;
-    padding-left: 80px;
-    float: left;
-}
 
