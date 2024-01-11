@@ -41,9 +41,10 @@
 
 .desc p{
     color: var(--light-color);
-    text-align: left;
+    text-align: center;
     padding-left: 100px;
     align-content: center;
+    max-width: 415px;
 }
 
 .project a {
