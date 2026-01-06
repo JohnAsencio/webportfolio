@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Projects | John Asencio-Giron</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/linkStyle.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/projects.css" />
+    <link rel="icon" href="../assets/images/favicons/icons8-computer-50.png">
+</head>
+
+<body>
+    <div class="xbox-dashboard">
+
+        <nav class="xbox-top-nav">
+            <a href="../index.html" class="nav-item">Home</a>
+            <a href="./about.html" class="nav-item">About</a>
+            <a href="./projects.html" class="nav-item active">Coding Projects</a>
+            <a href="./photography.html" class="nav-item">Photography</a>
+            <a href="#social" class="nav-item">Social</a>
+        </nav>
+        <main class="xbox-main-tiles">
+            <div class="page-content-wrapper">
+                <div class="header-content-pages">
+                    <h1>Coding Projects</h1>
+                    <h3>
+                        Here I would like to showcase some of my coding projects, obviously one of my big ones is this website.
+                    </h3>
+                </div>
+
+                <section class="projects-section">
+                <div class="container">
+                    <div class="project">
+                        <div class="project-image">
+                            <img src="../assets/images/projectsSS/retinex.png" alt="RetinexDL Project">
+                        </div>
+                        <div class="project-details">
+                            <h2>RetinexDL</h2>
+                            <p>Low Light Image enhancement convolutional neural network (CNN) deep learning model
+                                using retinex theory. Retinex Theory is the idea of splitting an image into an illumination
+                                map and a reflectance image. I generate a low-light image from a normal image and train the model
+                                only on those images. There is room for improvement, as this has some very practical cases.
+                            </p>
+                            <a class="two" href="https://github.com/cverbout/Data-Engineering-Group-Project" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p>Screenshot of the results of some of the images. Original enhanced is what 
+                            the model outputs, where the other two are post processed.
+                        </p>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-image">
+                            <img src="../assets/images/projectsSS/data_engineering.png" alt="Trimet Data Pipeline">
+                        </div>
+                        <div class="project-details">
+                            <h2 class="pixel-text">Trimet Data Pipeline</h2>
+                            <p>This is a data pipeline we built on Google Cloud using Pub/Sub and 
+                                breadcrumb data supplied from Trimet. Trimet is the public transportation
+                                system in the Portland metropolitan area. The github includes a link to a presentation 
+                                video.
+                            </p>
+                            <a class="two" href="https://github.com/cverbout/Data-Engineering-Group-Project" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p>Screenshot of a visualization of the average speeds for trips on this route</p>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-image">
+                            <img src="../assets/images/projectsSS/spotify_API.png" alt="Music Recommender">
+                        </div>
+                        <div class="project-details">
+                            <h2 class="pixel-text">Music Recommender</h2>
+                            <p>This is a web app I made using Flask and Spotify API, deployed on Google Cloud Run.
+                                On this website you can sign in with your account, see your top songs and generate
+                                a recommended playlist based on your current top songs. Clicking on a playlist takes
+                                you to the playlist page on Spotify. (The website might not be accessible
+                                since my google cloud trial is ending soon)
+                            </p>
+                            <a class="two" href="https://final-m653m56ika-uw.a.run.app/dashboard?external=True" target="_blank" rel="noopener noreferrer">Visit Music Recommender</a>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p>Screenshot of the design of the home page, clicking on a song would take you to the spotify link for
+                            that song.
+                        </p>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-image">
+                            <img src="../assets/images/projectsSS/heart_anomalies.png" alt="Heart Anomalies AI">
+                        </div>
+                        <div class="project-details">
+                            <h2 class="pixel-text">Heart Anomalies AI</h2>
+                            <p>This is a machine learner that can achieve at least 70% accuracy in classifying instances anomalous vs normal. 
+                                The data is based off this paper https://pubmed.ncbi.nlm.nih.gov/11583923/ by Kurgan et al describes diagnosis 
+                                of heart anomalies using machine learning on SPECT radiography data.
+                            </p>
+                            <a class="two" href="https://github.com/JohnAsencio/HeartAnomalies" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p>Screenshot of the program result and algorithm, as you can see over 70% accuracy</p>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-image">
+                            <img src="../assets/images/projectsSS/bloom_feed.png" alt="Bloom App">
+                        </div>
+                        <div class="project-details">
+                            <h2 class="pixel-text">Bloom App</h2>
+                            <p>This is an Instagram Threads clone, with some changes to the color scheme and some other 
+                                features that I have now added. I wanted to change this app to be more so geared towards 
+                                maintaining good mental health on social media. Social media can be very harmful for 
+                                mental health. One of my original ideas for this app was to introduce an AI
+                                chatbot, more so geared to provide advice/therapy. I used Swift for building the UI, and
+                                using Firebase for user data management (chatting, users, posts, etc). This app is still in 
+                                development and there are still a lot of features I would like to add. This has given me a lot of
+                                experience seeing what it is like developing a UI for an IOS app. This was also good practice 
+                                for backend work seeing how login and logout and data managment would work.
+                            </p>
+                            <a class="two" href="../gallery/bloom_gallery.html">More Photos of Bloom App</a>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p>Screenshot of the user feed in Bloom</p>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-image">
+                            <img src="../assets/images/projectsSS/FP.png" alt="Flappy Bird AI">
+                        </div>
+                        <div class="project-details">
+                            <h2 class="pixel-text">Flappy Bird AI</h2>
+                            <p>This is a project I developed in Python using Pygame. It is an AI that uses the NEAT algorithm to train the AI.
+                                Basically, it goes through generations picking the best genomes(gene) in each generation of X number of genomes.
+                            </p>
+                            <a class="two" href="https://github.com/JohnAsencio/FlappyBird_AI" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p>Screenshot of the program running, with the generation evaluation on the bottom left</p>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-image">
+                            <img src="../assets/images/projectsSS/Mario_SS.png" alt="Super Mario AI">
+                        </div>
+                        <div class="project-details">
+                            <h2 class="pixel-text">Super Mario AI</h2>
+                            <p>This is a project I developed in Python. This uses OpenAI's Gym 
+                                (Gym is an open source Python library for developing and comparing reinforcement learning algorithms)
+                                for reinforcement learning tools. They also have an environment specifically for Super Mario.
+                            </p>
+                            <a class="two" href="https://github.com/JohnAsencio/MarioAI" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p>Screenshot of the program running, with the value of the reward and episode on the bottom left</p>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

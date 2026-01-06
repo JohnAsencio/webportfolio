@@ -1,0 +1,86 @@
+.header-content-about {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: transparent;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header-content-about h1 {
+    font-size: clamp(3rem, 6vw, 5rem);
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    color: var(--xbox-text);
+    text-shadow: 0 2px 20px rgba(16, 124, 16, 0.5);
+    position: relative;
+    z-index: 1;
+}
+
+.header-content-about h2 {
+    text-transform: uppercase;
+    color: var(--accent-color);
+    text-align: center;
+    margin: 3rem auto 1.5rem;
+    font-size: clamp(2rem, 4vw, 3rem);
+    position: relative;
+    z-index: 1;
+    text-shadow: 0 2px 15px rgba(16, 124, 16, 0.3);
+}
+
+.header-content-about h3 {
+    text-transform: none;
+    color: var(--xbox-text-muted);
+    text-align: center;
+    margin: 1rem auto;
+    max-width: 800px;
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    position: relative;
+    z-index: 1;
+    opacity: 0.95;
+    line-height: 1.8;
+}
+
+.about-box {
+    margin: 2rem 0;
+    position: relative;
+    z-index: 1;
+}
+
+.about-right {
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(16, 124, 16, 0.25);
+    transition: transform 0.3s ease;
+}
+
+.about-right:hover {
+    transform: scale(1.05);
+}
+
+.about-box .about-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: grayscale(20%);
+    transition: filter 0.3s ease;
+}
+
+.about-box .about-right:hover img {
+    filter: grayscale(0%);
+}
+
+@media (max-width: 768px) {
+    .header-content-about {
+        padding: 2rem 1rem;
+    }
+    
+    .about-right {
+        max-width: 300px;
+    }
+}

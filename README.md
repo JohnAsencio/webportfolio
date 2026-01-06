@@ -1,8 +1,4 @@
-# Website
+# Portfolio Website
 
-This website is strictly for me to show off my photographs I have taken.
-It is also for me to practice my web development skills
-and have this as a project.
+Portfolio website showcasing coding projects, photography, and professional experience. Built with an Xbox 360-inspired dashboard design.
 
-## External Resources
-1. Typewriting - (https://awran5.github.io/typewriting/) 

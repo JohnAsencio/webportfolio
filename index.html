@@ -5,424 +5,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Asencio-Giron</title>
+    <title>John Asencio-Giron | Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="CSS/linkStyle.css" />
-    <link rel="icon" href="Web Pics/favicons/icons8-home-50.png">
+    <link rel="stylesheet" href="assets/css/linkStyle.css">
+    <link rel="icon" href="assets/images/favicons/icons8-home-50.png">
 </head>
 
 <body>
-    <script src="typewriting-master/typewriting.js"></script>
-    <nav>
-        <a class="two" href="./index.html">Home</a>
-        <a class="two" href="./about.html">About</a>
-        <a class="two" href="./projects.html">Coding Projects</a>
-        <a class="two" href="./john's pics.html">Photographs</a>
-        <a class="two" href="./john's vids.html">Videos</a>
-      </nav>
+    <script src="assets/js/typewriting.js"></script>
+    
+    <div class="xbox-dashboard">
+        <nav class="xbox-top-nav">
+            <a href="./index.html" class="nav-item active">Home</a>
+            <a href="./pages/about.html" class="nav-item">About</a>
+            <a href="./pages/projects.html" class="nav-item">Coding Projects</a>
+            <a href="./pages/photography.html" class="nav-item">Photography</a>
+            <a href="#social" class="nav-item">Social</a>
+        </nav>
 
-    <header id="header" class="vh-100 flex">
-        <div class="container">
-            <div class="header-content">
-                <h1>I'm a <br><span class="typewrite" data-loop="yes" data-speed="100" data-delay="2000" data-words='["programmer",
-                "photographer", "videographer", "video editor",
-                "web developer", "software engineer"]'></span></h1>
-                <h3>John Asencio-Giron</h3>
-
-                <ul class="social-links">
-                    <li>
-                        <a href="#" class="flex">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/JohnAsencio" class="flex">
-                            <i class="fa fa-github"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/johnsflics_/" class="flex">
-                            <i class="fa fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/john-asencio-86873918a/" class="flex">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section id="intro" class="intro py-7">
-            <div class="container">
-                <div class="intro-content grid">
-                    <div class="intro-left">
-                        <img src="Web Pics/dsc02997.JPG" alt="me">
-                    </div>
-                    <div class="intro-right">
-                        <div class="title">
-                            <h2> About Me </h2>
+        <main class="xbox-main-tiles">
+            <div class="tiles-container">
+                <div class="left-tiles">
+                    <a href="./pages/about.html" class="xbox-tile green-tile tile-link">
+                        <div class="tile-icon-large">
+                            <i class="fa fa-user-circle"></i>
                         </div>
-                        <p class="intro-bod" style="font-size: 1.0em;">
-                            Recently graduated with a Bachelors in Computer Science at Portland State University, I am eager to gain experience in the industry. 
-                            My college coursework has allowed me to gain experience with C++, C, Rust, SQL, Java, Python, and familiar Linux/Unix Systems as well as web
-                            development tools such as HTML/CSS/Javascript. My personal projects have also allowed me to gain self learning skills and applying those skills
-                            to my projects involving cloud systems, AI, and app development. I love working with others and want to expand my network. I want to learn as much as I can!<br>
-                            
-                            <br>This website was initially meant to be a platform to display my photos as taking pictures is another one of my passions. As it became bigger I realized it was a great way to showcase 
-                            my passion and my love for programming. For updated photography, PLEASE check out my instagram @johnsflics_, as that will have more current photos. <br>
+                        <div class="tile-text">Profile</div>
+                    </a>
+                    
+                    <a href="./pages/projects.html" class="xbox-tile green-tile tile-link">
+                        <div class="tile-icon-large">
+                            <i class="fa fa-code"></i>
+                        </div>
+                        <div class="tile-text">Projects</div>
+                    </a>
+                    
+                    <a href="./pages/photography.html" class="xbox-tile green-tile tile-link">
+                        <div class="tile-icon-large">
+                            <i class="fa fa-camera"></i>
+                        </div>
+                        <div class="tile-text">Gallery</div>
+                    </a>
+                </div>
 
-
-                            <br> What I offer: <br>
-                            - Proficiency and expertise in Python, Pytorch and a strong foundation in software engineering and data engineering principles.<br>
-                            - Creativity and problem solving skills with a proven track record of mastery of data structures and algorithms. <br>           
-                            - Exceptional teamwork skills, demonstrated through various projects and my willingness to put the needs of the team over mine. <br>
-
-                            <br>Whether it's AI/ML, data science, data engineering, or software engineering, I'm eager to collaborate with like-minded professionals to create impactful solutions that make a difference.
-                        </p>
+                <div class="center-tile xbox-tile dark-tile">
+                    <div class="xbox-live-text">JOHN ASENCIO-GIRON</div>
+                    <div class="xbox-icons">
+                        <i class="fa fa-laptop"></i>
+                        <i class="fa fa-user"></i>
+                        <i class="fa fa-globe"></i>
+                    </div>
+                    <div class="xbox-description">
+                        <p>I'm a <span class="typewrite" data-loop="yes" data-speed="100" data-delay="2000" data-words='["programmer", "photographer", "web developer", "software engineer", "creative coder", "visual artist"]'></span></p>
+                        <p class="sub-desc">Aspiring Software Engineer</p>
+                    </div>
+                    <div class="profile-image-container">
+                        <img src="assets/images/dsc02997.JPG" alt="John Asencio-Giron" class="profile-image">
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
 
-
-    <header id="header-work" class="vh-100 flex">
-        <div class="container">
-            <div class="header-content">
-                <center>
-                    <h1>My Work</h1>
-                </center>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="container">
-            <div class="images-link">
-                <div class="title-sub">
-                    <center>
-                        <h2> PHOTOGRAPHY </h2>
-                    </center>
-                </div>
-                <div class="box">
-                    <a href="./john's pics.html">
-                        <img src="Web Pics/lv 2021/IMG_5593.JPG" alt="Vegas Pic">
+                <div class="right-tiles">
+                    <a href="https://github.com/JohnAsencio" target="_blank" rel="noopener noreferrer" class="xbox-tile green-tile tile-link">
+                        <div class="tile-icon-large">
+                            <i class="fa fa-github"></i>
+                        </div>
+                        <div class="tile-text">GitHub</div>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/john-asencio-86873918a/" target="_blank" rel="noopener noreferrer" class="xbox-tile green-tile tile-link">
+                        <div class="tile-icon-large">
+                            <i class="fa fa-linkedin"></i>
+                        </div>
+                        <div class="tile-text">LinkedIn</div>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/johnsflics_/" target="_blank" rel="noopener noreferrer" class="xbox-tile green-tile tile-link">
+                        <div class="tile-icon-large">
+                            <i class="fa fa-instagram"></i>
+                        </div>
+                        <div class="tile-text">Instagram</div>
                     </a>
                 </div>
             </div>
-            <div class="images-link">
-                <div class="title-sub">
-                    <center>
-                        <h2> VIDEOGRAPHY </h2>
-                    </center>
-                </div>
-                <div class="box">
-                    <a href="./john's vids.html">
-                        <img src="Web Pics/IMG_8836.jpg" alt="OA Vid Screenshot">
-                    </a>
-                </div>
+
+            <div class="xbox-nav-hint">
+                <div class="nav-button">A</div>
+                <span>Select</span>
             </div>
-        </div>
-        </section>
-    </main>
+        </main>
+    </div>
 </body>
 
-<!-- <div class = "images">
-    <div class = "box"> 
-        <img
-            src= "Web Pics/IMG_5593.JPG" alt= "Vegas Pic" height = "200" height = "100">
-    </div>
-    
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_6747.JPG" alt= "Balloons" height = "200" height = "100"  >      
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_3865.JPG" alt= "Balloons" height = "200" height = "100">
-    </div>
-</div>
-
-<div class = "images">
-    <div class = "box">
-        <a href="./about.html">
-        <img
-            src= "Web Pics/IMG_6484.JPG" alt= "Venice Sunset" height = "200" height = "100">
-        </a>
-    </div>
-    
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_6757.JPG" alt= "LV books" height = "200" height = "100"  >      
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_6831.jpeg" alt= "LA night" height = "200" height = "100">
-    </div>
-</div>
-  
-<div class = "images">
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7243.jpg" alt= "Lloyd Bridge Night" height = "200" height = "100">
-    </div>
-    
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7166-2.jpg" alt= "BW Newspaper" height = "100" height = "100"  >      
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_6802.jpeg" alt= "6th St Bridge" height = "100" height = "70">
-    </div>
-</div>
-
-<div class = "images">
-        <div class = "box">
-            <img
-                src= "Web Pics/IMG_6554.JPG" alt= "DT LA" height = "200" height = "100">
-        </div>
-        
-        <div class = "box">
-            <img
-                src= "Web Pics/IMG_4154 2.JPG" alt= "Snow Dog Pic" height = "100" height = "100"  >      
-        </div>
-    
-        <div class = "box">
-            <img
-                src= "Web Pics/IMG_5620.JPG" alt= "Night Vegas" height = "100" height = "70">
-        </div>
-</div>
-
-
-<div class = "images">
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7072.jpg" alt= "Green Lights Joker" height = "100" height = "70">
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_6909.jpg" alt= "Sunglasses Dog" height = "200" height = "100">
-    </div>
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7951.jpg" alt= "stream of leaves" height = "100" height = "100"  >      
-    </div>
-</div>
-
-<div class = "images">
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7225.jpg" alt= "Light Strobe Bridge" height = "200" height = "100">
-    </div>
-    
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7041.jpg" alt= "Dark Spider Web" height = "100" height = "100"  >      
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_6946.JPG" alt= "Barrel Film" height = "100" height = "70">
-    </div>
-</div>
-
-<div class = "images">
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7105.jpg" alt= "Neon Cat" height = "200" height = "100">
-    </div>
-    
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_3697.JPG" alt= "Cannon Beach" height = "100" height = "100"  >      
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_4374.JPG" alt= "Bay Bridge" height = "100" height = "70">
-    </div>
-</div>
-
-<div class = "images">
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_6482.JPG" alt= "Venice Sunset" height = "200" height = "100">
-    </div>
-    
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_6942.jpeg" alt= "Flowers1" height = "100" height = "100"  >      
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_4973.JPG" alt= "Front GG Bridge" height = "100" height = "70">
-    </div>
-</div>
-
-<div class = "images">
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7714.jpg" alt= "Golden Sunset" height = "200" height = "100">
-    </div>
-    
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7298.jpg" alt= "sunflowers" height = "100" height = "100"  >      
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_5913.JPG" alt= "cherry blossoms" height = "100" height = "70">
-    </div>
-</div>
-
-<div class = "images">
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_8234.jpg" alt= "skeleton santa" height = "200" height = "100">
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_6491.JPG" alt= "lapiz" height = "200" height = "100">
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7736.JPG" alt= "SF at night" height = "100" height = "70">
-    </div>
-</div>
-
-<div class = "images">
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7709.jpg" alt= "sunset sky" height = "200" height = "100">
-    </div>
-    
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_6776.jpg" alt= "pier shot" height = "200" height = "100">
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_5585.JPG" alt= "ceiling mural" height = "100" height = "70">
-    </div>
-</div>
-
-<div class = "images">
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7720.jpg" alt= "sunset sky SF" height = "200" height = "100">
-    </div>
-    
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_6484.JPG" alt= "venice sunset" height = "200" height = "100">
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7666.jpg" alt= "street SF" height = "100" height = "70">
-    </div>
-</div>
-
-<div class = "images">
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7291.JPG" alt= "sand castle" height = "200" height = "100">
-    </div>
-    
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7359.JPG" alt= "chinese wall" height = "200" height = "100">
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7385.JPG" alt= "purple skies" height = "100" height = "70">
-    </div>
-</div>
-
-<div class = "images">
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7313.JPG" alt= "basketball skies" height = "200" height = "100">
-    </div>
-    
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7417.JPG" alt= "blue golden gate" height = "200" height = "100">
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7428.JPG" alt= "long exposure" height = "100" height = "70">
-    </div>
-</div>
-
-<div class = "images">
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7631.JPG" alt= "mango shot" height = "200" height = "100">
-    </div>
-    
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7687.JPG" alt= "city scene" height = "200" height = "100">
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_6755.JPG" alt= "art" height = "100" height = "70">
-    </div>
-</div>
-
-<div class = "images">
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7312.JPG" alt= "black figures" height = "200" height = "100">
-    </div>
-    
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7427.JPG" alt= "GG at night" height = "200" height = "100">
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7437.JPG" alt= "art" height = "100" height = "70">
-    </div>
-</div>
-
-
-<div class = "images">
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7654.JPG" alt= "beach" height = "200" height = "100">
-    </div>
-    
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7728.JPG" alt= "metro" height = "200" height = "100">
-    </div>
-
-    <div class = "box">
-        <img
-            src= "Web Pics/IMG_7458.JPG" alt= "bench" height = "100" height = "70">
-    </div>
-</div>
-
-</body>
 </html>
